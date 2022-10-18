@@ -1,0 +1,133 @@
+@media (min-width: 992px) {
+  .navbar,
+  .navbar-collapse {
+    flex-direction: column;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+  }
+  .navbar {
+    width: 28%;
+    height: 100vh;
+    align-items: flex-start;
+  }
+  .navbar-brand {
+    margin-left: 0.5em;
+    padding-bottom: 0;
+  }
+  form input {
+    margin-bottom: 0.7em;
+  }
+}
+
+.frame{
+  background-color:rgb(221, 227, 219) ;
+  padding: 150px 5px 150px 5px;
+  border-radius:1%
+}
+
+.container{
+  border-radius:3%
+}
+
+.smallframe{
+  background-color:rgb(241, 244, 240) ;
+  padding: 10px 5px 50px 5px;
+  border-radius:2%
+  
+}
+
+.navbar-light .search-form {
+  background-color: #f6f6f6;
+  border-color: transparent;
+}
+
+.navbar .search-form {
+  max-width: 250px;
+  margin-right: 0.625rem;}
+
+.navbar .search-form .form-control {
+    box-shadow: none;}
+
+ .material-icons {
+      font-family: Material Icons;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 24px;
+      display: inline-block;
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-feature-settings: "liga";
+      font-feature-settings: "liga";
+  }
+  .xsmallframe{ background-color: rgb(230, 238, 226);
+    border-radius: 4%;
+   
+  }
+
+  .smallicon{
+    width: 30px;
+    height:30px;
+  }
+
+
+  .badgesbg{
+    background-color: rgb(230, 238, 226);
+    border-radius: 4%;
+   
+  }
+
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+CSSResult Skip Results Iframe
+EDIT ON
+.box {
+  position: relative;
+}
+.content {
+  display: none;
+}
+.box:hover .content{
+  display: block;
+  position: absolute;
+  top: -45px;
+  left: 0;
+  color: #fff;
+  font-size: .8em;
+  background: #346e7a;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.body {
+  font-family:"Microsoft JhengHei",sans-serif;
+  background:#1b254a;
+}
+.box {
+  background:#fff;
+  border-radius:5px;
+  max-width:400px;
+  margin:0 auto;
+  margin-top:10px;
+  padding:10px;
+  font-size:18px;
+  line-height:1.5em;
+  border-radius:5px;
+
+}
+
